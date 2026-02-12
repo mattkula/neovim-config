@@ -15,7 +15,7 @@ require("nvim-tree").setup()
 -- Keymaps
 vim.keymap.set('n', '<leader>q', '<cmd>wqa<cr>', { desc = 'Quit all' })
 
-vim.keymap.set('n', '<leader>p', '<cmd>:Lazy<cr>', { desc = 'Open lazy menu' })
+vim.keymap.set('n', '<leader>p', '<cmd>Lazy<cr>', { desc = 'Open lazy menu' })
 
 vim.keymap.set('n', 'th', '<cmd>BufferPrevious<cr>', { desc = 'Previous tab' })
 vim.keymap.set('n', 'tl', '<cmd>BufferNext<cr>', { desc = 'Next tab' })
