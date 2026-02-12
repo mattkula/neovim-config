@@ -47,7 +47,7 @@ return {
             -- lazy.nvim will automatically call setup for you. put your options here
             
             -- Hide tab bar if there is only one buffer
-            auto_hide = 1
+            auto_hide = 0
         },
         version = '^1.0.0', -- optional: only update when a new 1.x version is released
     },
